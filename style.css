@@ -1,8 +1,11 @@
-* {
+
+    * {
     margin: 0;
     padding: 0;
-}
-div#one {
+} 
+
+
+div.container {
     background-color: aquamarine;
     width: 100vw;
     height: 100vh;
@@ -10,7 +13,23 @@ div#one {
     justify-content: center;
     align-items: center;
 }
-h3 {
-    font-size: 7em;
+section {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+}
+b {
+    font-size: 1.5em;
+    background-color: burlywood;
+}
+body {
+    font-size: 2em;
     font-family: 'Josefin Sans', sans-serif;
-}   
+} 
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif; */
+ 
